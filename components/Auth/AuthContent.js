@@ -104,6 +104,7 @@ function AuthContent({ isLogin, switchHandler, loginHandler }) {
             res.data.email,
             res.data.name
           );
+          // console.log(res.data.token);
           loginHandler();
         })
         .catch((err) => {

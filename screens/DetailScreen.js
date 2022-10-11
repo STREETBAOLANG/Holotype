@@ -37,6 +37,7 @@ function DetailScreen({ route, navigation }) {
   const itemId = item.id;
   const removePost = postsCtx.removePost;
   const token = authCtx.token;
+  console.log(token);
 
   const isUserPostCreator = item.creatorId == authCtx.userId;
 
